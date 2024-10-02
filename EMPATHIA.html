@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://127.0.0.1:5500/empathia.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./EMPATHIA_files/bootstrap.bundle.min.js.download"></script>
+    <link href="./EMPATHIA_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./EMPATHIA_files/css2">
+    <title>EMPATHIA</title>
+    <link rel="stylesheet" href="./EMPATHIA_files/chatbot.css">
+</head>
+
+<body>
+    <div class="contain">
+    <nav class=" navbar navbar-expand " id="doc" style="background-color:rgba(0, 0, 0, 0.292)">
+        <div class="container-fluid" id="head">
+          <a class="navbar-brand" href="http://127.0.0.1:5500/empathia.html#" id="the"> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" id="and" aria-current="page" href="http://127.0.0.1:5500/empathia.html#" style="font-family: &#39;Times New Roman&#39;, Times, serif;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:5500/empathia.html#" id="you" style="font-family: &#39;Times New Roman&#39;, Times, serif;">About us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://127.0.0.1:5500/empathia.html#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="the1" style="font-family: &#39;Times New Roman&#39;, Times, serif;">
+                  help?
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="http://127.0.0.1:5500/empathia.html#">contact us</a></li>
+                  <li><a class="dropdown-item" href="http://127.0.0.1:5500/empathia.html#">Instruction</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="http://127.0.0.1:5500/empathia.html#">FAQ</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true" id="cool" style="font-family: &#39;Times New Roman&#39;, Times, serif;">Our team</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+          
+              
+             
+            <div class="btn-group">
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" fdprocessedid="xdbk5s" style="right:200px;background-color: rgb(52, 52, 199); font-family: &#39;Times New Roman&#39;, Times, serif; ">
+                 Sign In
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end" style=" right: 200px; background-color: rgba(0, 0, 0, 0.178);">
+                
+                <div class="mb-3">
+                  <label for="exampleDropdownFormEmail2" class="form-label" style="color: azure;width: 300px; font-family: &#39;Times New Roman&#39;, Times, serif;">UserName</label>
+                  <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleDropdownFormPassword2" class="form-label" style="color: azure;font-family: &#39;Times New Roman&#39;, Times, serif;">Password</label>
+                  <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+                </div>
+                </ul></div>
+
+            </form>
+          </div>
+
+        </div>
+        
+        <div class="img">
+          <img src="./EMPATHIA_files/images" alt="ch" width="600px" height="600px">
+            
+        </div>
+        <div class="img2">
+          <img src="data:image/jpeg;base64,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" width="100px">
+          </div>
+      <div>
+        <h1 class="heading" style="font-family: &#39;Times New Roman&#39;, Times, serif;">
+            EMPATHIA
+          </h1>
+          <h3 class="you" style="font-family: Cambria, Cochin, Georgia, Times, &#39;Times New Roman&#39;, serif;">
+            Empowering Minds,One Chat at a Time
+          </h3>
+          
+
+        </div>
+
+      </nav>
+      <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark" style="background-color: black;">
+        <div class=" p-4" style="background-color: black; width: 200px; bottom: 50px; position: absolute;">
+          <h5 class="text-body-emphasis h4" style="background-color: black;">Your Profile
+
+          </h5>
+          <hr>
+          <span class="text-body-secondary" style="background-color: black;">History</span>
+          <hr>
+          <span class="text-body-secondary" style="background-color: black;">Buddy</span>
+          <hr>
+          <span class="text-body-secondary" style="background-color: black;">streaks</span>
+          <hr>
+          <span class="text-body-secondary" style="background-color: black;">Community</span>
+          <hr>
+          <span class="text-body-secondary" style="background-color: black;">Games</span>
+          <hr>
+          <span class="text-body-secondary" style="background-color: black;">Task</span>
+          <hr>
+          <span class="text-body-secondary" style="background-color: black;">Achievements</span>
+          <hr>
+          <span class="text-body-secondary" style="background-color: black;"> <button type="submit" class="btn btn-primary" st="">Sign Out</button>
+
+          </span>
+        </div>
+      </div>
+      <nav class="navbar navba" style="background-color: brgba(0, 0, 0, 0)">
+        <div class="container-fluid1">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" style="position: absolute; right: 20px; top: 0px;">
+            <span class="material-symbols-outlined" style="color: aliceblue;">
+              bolt
+              </span>
+          </button>
+        </div>
+      </nav>
+      <div>
+      <button type="button" class="btn3" style="background-color: rgba(250, 235, 215, 0.084); font-family: &#39;Times New Roman&#39;, Times, serif;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Get Started</button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel" style="background-color: black; width: 50%">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel" style="color: aliceblue; font-family: &#39;Times New Roman&#39;, Times, serif;">Hi Buddy!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" style="height: 100px; "></button>
+          <class="form-control" id="inputGroupFile04" aria-label="Upload" height="100px" style="background-color: rgba(0, 0, 0, 0.781);">
+            <div class="input-group flex-nowrap">
+              <input type="text" class="form-control" placeholder="" aria-label="chat" aria-describedby="addon-wrapping" style="width: 500px;">
+      
+          <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04" style="background-color: black;"><span class="material-symbols-outlined">
+              chat
+              </span></button> </div>
+          </class="form-control"></div>
+        
+      </div>
+      </div>
+      <div class="dropdown1">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" style="font-family: &#39;Times New Roman&#39;, Times, serif;">
+          Sign Up
+        </button>
+        <form class="dropdown-menu p-20" style="background-color: rgba(19, 15, 15, 0.708); padding: 20px; width: 300px;">
+          <div class="mb-3">
+            <label for="exampleDropdownFormEmail2" class="form-label" style="color: azure;font-family: &#39;Times New Roman&#39;, Times, serif;">Email address</label>
+            <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleDropdownFormPassword2" class="form-label" style="color: azure;">Password</label>
+            <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+          </div>
+          <div class="mb-3">
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+              <label class="form-check-label" for="dropdownCheck2" style="color: azure;font-family: &#39;Times New Roman&#39;, Times, serif;">
+                Remember me
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary" st="">Sign Up</button>
+        </form>
+      </div>
+      
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
